@@ -1,3 +1,93 @@
-.hobbies {
+/* general styling */
+
+/* id */
+
+#navi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20%;
+    height: 50px;
+	background: #000000 transparent;
+	box-shadow: 0px 1px 5px #191c1d7a;
+}
+
+#logo {
+    margin-left: 1%;
+}
+
+#page-links {
+    padding-left: 15%;
+}
+
+#navi ul li {
     display: inline-flex;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1%;
+	margin-bottom: 1%;
+	box-shadow: inset 0px 2px 6px #76818580;
+	border: 2.5em solid #000000;
+	border-width: 5px;
+    overflow: hidden;
+}
+
+#banner01 {
+    height: 100px;
+	border-bottom: .25em solid #000000;
+	box-shadow: inset 0px 0px 10px #72302d73;
+}
+
+#center-content {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#banner02 {
+    height: 100px;
+	border-top: .25em solid #000000;
+	box-shadow: inset 0px 0px 10px #72302d73;
+}
+
+#socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	background: #000000 transparent;
+	box-shadow: 0px 1px 5px #191c1d7a;
+}
+
+#socials ul li {
+    display: inline-flex;
+}
+
+#socials ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* classes */
+
+div.scroll-container {
+    background-color: #000000;
+    overflow: auto;
+    white-space: nowrap;
+    padding-top: 5px;
+}
+
+div.scroll-container img {
+    padding: 5x;
+}
+
+div.img-gallery h2 {
+    padding-left: 20px;
+}
+div.img-gallery p {
+    font-size: 20px;
+    padding-left: 20px;
 }
